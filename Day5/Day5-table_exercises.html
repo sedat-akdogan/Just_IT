@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day5-tables.exercise</title>
+</head>
+
+<body>
+    <table border="1">
+        <thead>
+            <th colspan="4">
+                <h2>Nested Tables</h2>
+            </th>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+                <th>Header 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>row2 item1</td>
+                <td>row2 item2</td>
+                <td rowspan="2">
+                    <table border="1">
+                        <th>row2 Nested table 1</th>
+                        <tr>
+                            <td>row1 header</td>
+                            <td>item</td>
+                        </tr>
+                        <tr>
+                            <td>row2 header</td>
+                            <td>item</td>
+                        </tr>
+                        <tr>
+                            <td>row3 header</td>
+                            <td>item</td>
+                        </tr>
+                        <tr></tr>
+                        <tr></tr>
+                    </table>
+                </td>
+                <td>row2 item4 <br> a second line</td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1">
+                        <tr>
+                            <th>row3 Nested table 2</th>
+                        </tr>
+                        <tr>
+                            <td>row 1 header 1</td>
+                            <td>item</td>
+                        </tr>
+                        <tr>
+                            <td>row 2 header2</td>
+                            <td>item</td>
+                        </tr>
+                    </table>
+                </td>
+                
+                <td>row3 item2</td>
+                
+                <td rowspan="2">row 3 item3</td>
+            </tr>
+            <tr>
+                <td>row4 item1</td>
+                <td>row4 item2</td>
+                <td>row4 item3</td>
+
+
+            </tr>
+            <tr>
+                <td colspan="4">row5 last row of the ouetr table</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
