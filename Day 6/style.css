@@ -43,8 +43,9 @@ body {
 #demo6 {
     border-radius: 20px;
     width: 500px;
-    margin-left: 40px;
+    margin-left: 10px;
     border: 5px solid blue;
     border-style: double;
+    border-width: 20px 90px 20px 90px;
 }
 
