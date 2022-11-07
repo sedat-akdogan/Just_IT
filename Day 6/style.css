@@ -21,3 +21,30 @@ body {
     font-weight: 400;
     background-color: aqua;
 }
+
+#demo4 {
+    margin: 20px 30px 20px 30px;
+    padding: 10px 20px 10px 20px;
+    border: 5px dashed red;
+    font-style: italic;
+    font-size: 5rem;
+    color: rgba(100, 129, 200, 0.9);
+    background-color: brown;
+}
+
+.demo5 {
+    border: 3px solid red;
+    background-image: url("/images/two-cameras.jpeg");
+    background-size: 700px;
+    font-size: 100px;
+    border-radius: 20px;
+}
+
+#demo6 {
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 40px;
+    border: 5px solid blue;
+    border-style: double;
+}
+
