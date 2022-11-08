@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7-CSS -- float and clear</title>
+    <style>
+        .item {
+            border: 3px solid red;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: wheat;
+        }
+        .container {
+            border: 3px solid black;
+            width: 1000px;
+            margin: 50px auto;
+            background-color: lightblue;
+        }
+        #fruit {
+            float: left;
+            width: 49%;
+        }
+        #computer{
+            float: right;
+            width: 49%;
+        }
+        #stationary {
+            clear: both;
+            width: 100%;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h2>Fruits</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Consequatur soluta suscipit modi totam nostrum aperiam, 
+                officiis vero neque unde explicabo?</p>
+        </div>
+        <div id="computer" class="item">
+            <h2>Computer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, 
+                blanditiis ipsa sequi perferendis praesentium dolore. Accusantium,
+                 beatae. 
+                Earum consequatur voluptates, delectus itaque labore nulla quos.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h2>Stationary</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Ducimus, itaque repellat illo voluptatem ab, natus 
+                 tempora pariatur perspiciatis quibusdam suscipit
+                  molestias modi ex consectetur nemo incidunt magnam 
+                  iure quidem blanditiis. Corrupti omnis reprehenderit
+                   porro voluptatem quisquam voluptatibus excepturi! 
+                   Quos ipsum modi laudantium earum temporibus quidem, 
+                   vero cum ea illum et.</p>
+        </div>
+        <div id="glasses" class="item">
+            <h2>Glasses</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Dolor eligendi nihil totam, et omnis, explicabo aperiam 
+                 possimus dolorum provident dignissimos optio quo! Dolorem, 
+                 deleniti quia.</p>
+        </div>
+    </div>
+</body>
+</html>
