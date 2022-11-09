@@ -17,6 +17,11 @@
     top: 34px;
     left: 34px;
 }
+img {
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
 
 #box5 {
     position: sticky;
