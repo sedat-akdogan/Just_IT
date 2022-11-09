@@ -1,0 +1,35 @@
+.box {
+    border: 2px solid red;
+    width: 350px;
+    height: 150px;
+    margin: 2px;
+    display: block;
+    padding: 5px;
+}
+
+/* relative -- relative to its normal position */
+/* absolute -- relative ti its first parent position*/
+/* fixed -- the lelement will remain at a fixed position when you scroll down the page.  generally fixed to the viewport.*/
+/* Sticky -- its fixed to its parent component. when the parent is offset, it disapper. */
+
+#box3 {
+    position: fixed;
+    top: 34px;
+    left: 34px;
+}
+
+#box5 {
+    position: sticky;
+    top: 34px;
+    left: 34px;
+}
+
+#box8 {
+    position: relative;
+    top: 34px;
+    left: 34px;
+}
+
+.container {
+    border: 2px solid rgb(19, 19, 182);
+}
