@@ -1,7 +1,6 @@
 .navBar{
     background-color: black;
     color: white;
-    padding: 5px;
 }
 
 .navBar ul li {
@@ -9,9 +8,10 @@
     list-style: none;
     float: left;
     margin: 13px 20px;
-    padding: 4px;
-    float: left;
+}
 
+.navBar ul {
+    overflow: auto;
 }
 
 .navBar ul li a {
@@ -22,10 +22,13 @@
 
 .search {
     float: right;
+    padding: 12px 60px;
 }
 
 .navBar input {
     border: 2px solid red;
     border-radius: 10px;
     width: 142px;
+    padding: 3px 16px;
+
 }
