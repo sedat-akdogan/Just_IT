@@ -1,0 +1,31 @@
+.navBar{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.navBar ul li {
+    /* remove the bullet points from the list*/
+    list-style: none;
+    float: left;
+    margin: 13px 20px;
+    padding: 4px;
+    float: left;
+
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+}
+
+.search {
+    float: right;
+}
+
+.navBar input {
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 142px;
+}
