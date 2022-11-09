@@ -3,11 +3,33 @@
 
 img {
     /* img is by default is an inline element */
-
+    width: 500px;
     display: block;
     margin: auto;
 }
 
 h2 {
     text-align: center;
+}
+
+header {
+    text-align: center;
+    border: 2px solid purple;
+    margin: auto;
+    width: 500px;
+}
+
+.box {
+    border: 2px solid red;
+    margin: 4px;
+    background-color: lightblue;
+    padding: 23px;
+    box-sizing: border-box;
+    width: 31%;
+    display: inline-block;
+}
+
+.container {
+    border: 2px solid blue;
+    margin: 30px;
 }
