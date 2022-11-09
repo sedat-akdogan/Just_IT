@@ -1,0 +1,13 @@
+/* display is a inline >> will only take the necessary width */
+/* display block >> occupy all the space(width) */
+
+img {
+    /* img is by default is an inline element */
+
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
