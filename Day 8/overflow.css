@@ -1,0 +1,12 @@
+#overflow {
+    background-color: yellowgreen;
+    border: 2px solid blue;
+    width: 600px;
+    height: 700px;
+    overflow: visible;
+    /* overflow can be hidden */
+    overflow: scroll;
+    /* creates a scrollbar */
+
+    /* we can choose overflow -x or -y axis seperatly*/
+}
