@@ -18,6 +18,7 @@
     text-decoration: none;
     color: white;
     padding: 4px;
+    
 }
 
 .search {
@@ -30,4 +31,8 @@
     border-radius: 10px;
     width: 142px;
     padding: 3px 16px;
+}
+
+.navBar ul li a:hover {
+    color: yellowgreen;background-color: black;
 }
