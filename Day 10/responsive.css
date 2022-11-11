@@ -1,0 +1,16 @@
+/* responsive - for different size of screens; tablet, smartphones */
+/* using em/rem/vh/vw */
+
+h1 {
+    text-align: center;
+}
+
+/* em: set the font size relative to the parent */
+
+/* rem: works relatively on the base-size HTML root element */
+
+.container {
+    font-size: 10px;
+}
+
+/* vh: viewport height: to set a percntage of the screen instead of a fix px value */
