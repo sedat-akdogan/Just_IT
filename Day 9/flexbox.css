@@ -8,10 +8,37 @@
     justify-content: space-evenly;
 }
 
+/* order: higher the order, later it shows in the container */
+/* flex-grow: the item will grow faster when the container grows */
+/* flex-shrink: higher the number, quiker it will shrink */
+/* flex-basis: flex-direction >> row; it controls Width, flex-direction >> col; it controls Height.*/
+/* align-self:*/
+
 .item {
     background-color: aqua;
     border: 2px solid;
     width: 200px;
     height: 200px;
     margin: 20px;
+}
+
+#item1 {
+    background-color: antiquewhite;
+    /*order: 2; */
+    flex-grow: 2;
+    align-self: flex-end;
+}
+
+#item2 {
+    background-color: aquamarine;
+    /*order: 3; */
+    flex-grow: 3;
+}
+
+#item3 {
+    background-color: lawngreen;
+}
+
+#item6 {
+    align-self: flex-start;
 }
