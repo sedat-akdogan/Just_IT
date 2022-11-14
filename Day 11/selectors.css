@@ -1,0 +1,19 @@
+div p {
+    color: aquamarine;
+}
+
+div ul li p {
+    color: red;
+}
+
+div>p {
+    color: blue;
+}
+
+div+p {
+    color: cyan;
+}
+
+.container p {
+    color: blue;
+}
