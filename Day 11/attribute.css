@@ -1,0 +1,27 @@
+/* case 1: it will select all the input types */
+input {
+    display: block;
+}
+
+/* case 2: it will select the inputs whose tpye is text */
+input [type="text"]{
+    padding: 23px;
+    border: 2px solid red;
+}
+
+/* case 3: it will select all elements wha has a target attribute */
+a [target]{
+    font-size: 34px;
+    color: violet;
+}
+
+/* case 4: it will select all elements who has a target attribute with the value of _blank */
+a [target="_blank"]{
+    color: green;
+}
+
+.container {
+    border: 2px solid red;
+    margin: auto;
+    width: 600px;
+}
