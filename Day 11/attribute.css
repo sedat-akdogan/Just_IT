@@ -53,3 +53,30 @@ li:nth-child(4n) {
     color: black;
 }
 
+input:focus {
+    background-color: green;
+    border: 2px solid red;
+}
+
+input[type="text"]:focus {
+    background-color: aqua;
+    border: 3px solid blue;
+}
+
+p::first-letter {
+    font-size: 40px;
+    color: red;
+}
+
+::selection {
+    color: red;
+    background-color: azure;
+}
+
+h2::before {
+    content: url();
+}
+
+h2::after {
+    content: "added after the h2 tag...";
+}
