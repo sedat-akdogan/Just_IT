@@ -3,8 +3,9 @@
     color: white;
     text-align: center;
     font-size: 70px;
-    display: none;
-}
+    display: none; 
+    /* will disapper the box content--> */
+} 
 
 @media (min-width:0) and (max-width:600px){
     #box1 {
