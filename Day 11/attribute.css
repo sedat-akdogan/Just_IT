@@ -25,3 +25,31 @@ a [target="_blank"]{
     margin: auto;
     width: 600px;
 }
+
+
+/* Selecting elements from the list: */
+
+li:first-child {
+    color: blue;
+}
+
+li:last-child {
+    color: red;
+}
+
+li:nth-child(even) {
+    color: blue;
+}
+
+li:nth-child(odd) {
+    color: green;
+}
+
+li:nth-child(5) {
+    color: yellowgreen;
+}
+
+li:nth-child(4n) {
+    color: black;
+}
+
