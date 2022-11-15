@@ -11,3 +11,8 @@
     box-shadow: inset 3px 5px red;
     box-shadow: 4px 6px red, 8px 9px yellow;
 }
+
+.card h2 {
+    text-shadow: 3px 4px pink;
+    text-shadow: -5px -6px rgb(0, 255, 157);
+}
