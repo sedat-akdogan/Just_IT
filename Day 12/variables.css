@@ -1,0 +1,20 @@
+:root {
+    --box-color: rgb(47, 47, 225);
+    --primary-color: rgb(36, 217, 36);
+    --border-color: rgb(204, 64, 204);
+    --maxWidth:800px;
+    --danger-color: rgb(94, 16, 16);
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: var(--danger-color);
+    border:2px solid green;
+    margin: 3px 9px;
+}
+
+.container {
+    display: flex;
+    border: 3px solid var(--border-color);
+}
