@@ -1,0 +1,48 @@
+body {
+    background-color: aquamarine;
+    color: black;
+    margin: 0%;
+    padding: 0%;
+}
+/* problem: the text may not be a readable format */
+/* solution: add some content before the header element */
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 3px 23px;
+    border: 2px solid purple;
+    align-items: center;
+    height: 350px;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+
+.navigation li {
+    padding: 12px 12px;
+}
+
+header::before {
+    content: "";
+    background: url(/images/my_desk.jpeg) no-repeat center; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+p {
+    color: white;
+}
