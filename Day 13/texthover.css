@@ -1,0 +1,16 @@
+.mydiv {
+    background-color: lightcoral;
+}
+
+.myDiv:hover {
+    background-color: blueviolet;
+    transition: all 5s ease-in;
+}
+
+.myDiv:hover .title span {
+    display: none;
+}
+
+.myDiv:hover .title::after {
+    content: "New Text";
+}
