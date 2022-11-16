@@ -1,0 +1,22 @@
+#div1 {
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    background-color: lightblue;
+    transition: all 5s ease-in 2s;
+    /* transition properties: width, background color, height */
+    transition-property: all;
+    transition-duration: 5s;
+    transition-delay: 3s;
+    transition-timing-function: ease-in-out;
+}
+
+#div1:hover {
+    width: 400px;
+    background-color: green;
+    height: 80px;
+}
+
+h2:hover {
+    font-size: 20px;
+}

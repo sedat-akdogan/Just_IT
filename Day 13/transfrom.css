@@ -1,3 +1,5 @@
+/* 2D tranformation */
+
 #wrapper {
     padding: 20px;
     margin: 20px;
@@ -41,4 +43,25 @@ a:hover {
     transform: translateX(123px);
     transform: translateY(123px);
     transform: translate(123px, 123px);
+}
+
+/* 3D transformation */
+
+#cover {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    margin: 150px auto;
+}
+
+#content {
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    transform: perspective(300px) rotate3d(50, 0, 0, 20deg);
+    transform: perspective(300px) rotate3d(0, 50, 0, 20deg);
+    transform: perspective(300px) rotate3d(0, 0, 50, 20deg);
+    transform: perspective(300px) rotate3d(0, 0, 40, 30deg);
+    transform: perspective(300px) rotate3d(50, 0, 0, 20deg) translate3d(0px, 50px, 0px, 50px);
+    transform: perspective(300px) rotate3d(50, 0, 0, 20deg) translate3d(0px, 50px, 0px, -50px);
 }
