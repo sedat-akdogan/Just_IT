@@ -1,0 +1,13 @@
+#div1 {
+    height: 500px;
+    border: 2px solid red;
+    background-image: linear-gradient(green, blue, red);
+    /* default color: from top to bottum */
+    background-image: linear-gradient(to right, green, blue, red);
+    background-image: linear-gradient(to top left, blue, red, yellow);
+    background-image: linear-gradient(120deg, green, blue, red);
+
+    background-image: radial-gradient(green, blue, red, yellow);
+    background-image: radial-gradient(circle, red 20%, yellow 40%, blue 40%);
+}
+
