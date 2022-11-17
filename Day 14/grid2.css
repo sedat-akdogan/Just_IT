@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    /* all rows become 1fr by default */
+    grid-template-rows: 1fr 3fr 2fr;
+    grid-auto-rows: 2fr;
+    grid-template-columns: 1fr 4fr;
+    gap: 1rem;
+}
+
+.box {
+    background-color: lightcoral;
+    border: 2px solid blue;
+    padding: 20px;
+}
