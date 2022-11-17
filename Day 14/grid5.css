@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    gap: 1rem;
+    grid-template-areas: 
+    'nav nav nav nav'
+    'sec sec sec asi'
+    'foo foo foo foo';
+}
+
+.item {
+    background-color: aqua;
+    border: 3px solid;
+    padding: 12px 23px;
+}
+
+#navbar {
+    grid-area: nav;
+
+}
+
+#section {
+    grid-area: sec;
+}
+
+#aside {
+    grid-area: asi;
+}
+
+footer {
+    grid-area: foo;
+}
