@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    grid-template-rows: repeat(4, 1fr);
+    /* gap: 0.5rem; */
+}
+
+.box {
+    background-color: bisque;
+    border: 2px solid red;
+    padding: 20px;
+}
+
+/* targetting the first child: */
+.box:first-child {
+    /* colomn Spanning */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* grid-column: 1/3; */
+
+    grid-column: 1/span 3;
+
+    /* Row spanning: */
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    grid-row: 1/span 5;
+}
+
