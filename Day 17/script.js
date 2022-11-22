@@ -47,3 +47,18 @@
 // let t = 300;
 // console.log(l +t); // this is a string concatenation
 
+
+// // =====================                  String in JS
+
+// let str = "this is an exmple";
+// let str1 = 'this is also an exmple';
+
+// let str2 =`i love "coding" `;
+
+// let str3 = "alperen";
+// let str4 = "adjoa";
+
+// let str5 = `I am father of esranur and ${str4} and also ${str3}`;
+// console.log(str5);
+// console.log(str5.length);
+
