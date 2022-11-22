@@ -62,3 +62,11 @@
 // console.log(str5);
 // console.log(str5.length);
 
+let str9 = "alperen Akdogan";
+
+let index = str9.indexOf("A");
+console.log(index);
+
+let index2 = str9
+
+
