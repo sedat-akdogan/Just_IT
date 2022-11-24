@@ -19,3 +19,24 @@ let name1 = "google";
 let arr4 = Array.from(name1); // this is the "array from string" method.
 console.table(arr4); 
 console.log(typeof arr4);
+
+// OBJECTS
+
+let employee = {
+    name1: "sultan",
+    salary: 1000,
+    language: "English",
+    kids: 3
+}
+
+console.table(employee);
+
+// How to access any element of the object?
+
+console.log(employee.name1);
+console.log(employee.salary);
+
+console.log(employee["kids"]);
+
+// if there any space in any key of the object, we must use [" "] access method. 
+
