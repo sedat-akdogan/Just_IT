@@ -90,3 +90,19 @@
 // } else {
 //     console.log("record saved!");
 // }
+
+
+
+// Ecercise three;
+
+// create a function that sum all elements regardless of number of arguments:
+
+function addition(arguments) {
+    let sum = 0;
+    for (let i = 0; i < arguments.length; i++) {
+        sum = sum + arguments[i];
+    }
+    console.log(sum);  
+}
+
+addition(3, 5);
