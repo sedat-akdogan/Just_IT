@@ -78,15 +78,15 @@
 // it takes two parameters,
 // it returns a string,
 
-let userName = prompt("What is your name?", "default=Guest");
+// let userName = prompt("What is your name?", "default=Guest");
 
 
 // Confirm offers two options and take action accordingly,
 
-let deleteOne = confirm("do you really want to delete the record?");
+// let deleteOne = confirm("do you really want to delete the record?");
 
-if (deleteOne) {
-    console.log("you deleted the record");
-} else {
-    console.log("record saved!");
-}
+// if (deleteOne) {
+//     console.log("you deleted the record");
+// } else {
+//     console.log("record saved!");
+// }
