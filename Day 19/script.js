@@ -55,4 +55,4 @@ function greet(name) {
     console.log(name + " is a Just IT learner.")
 }
 
-greet("helen");
+greet();
