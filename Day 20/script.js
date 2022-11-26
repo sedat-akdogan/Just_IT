@@ -97,7 +97,7 @@
 
 // create a function that sum all elements regardless of number of arguments:
 
-function addition(arguments) {
+function addition( ...arguments) {
     let sum = 0;
     for (let i = 0; i < arguments.length; i++) {
         sum = sum + arguments[i];
@@ -105,4 +105,4 @@ function addition(arguments) {
     console.log(sum);  
 }
 
-addition(3, 5);
+addition(3, 5, 8, 12);
