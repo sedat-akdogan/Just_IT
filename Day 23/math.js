@@ -20,9 +20,8 @@ function validateForm() {
     let surname = document.getElementById("lname");
     let button = document.getElementById("submit");
 
-    if (name1 === null) {
-        window.alert("you must enter your first name");  
-     return false;
+    if (name1 == null) {
+        window.alert("you must enter your first name!");  
     }
     //if (name1 !== null) {
     //   return true;
@@ -30,8 +29,6 @@ function validateForm() {
     //if statement that will check the first name is not blank, if it is then
     //create an alert box that says first name must be filled out
     
-   
-
     //When first name is working then validate surname
 
 }
