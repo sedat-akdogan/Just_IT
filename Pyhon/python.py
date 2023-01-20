@@ -13,11 +13,12 @@
 # print("I learn python all over again!!")
 
 
-def sum(num1, *args):
-    total = num1
-    for num in args:
-        total = total + num
-    return total
+# def sum(num1, *args):
+#     total = num1
+#     for num in args:
+#         total = total + num
+#     return total
 
-sum(2, 5, 7, 8, 9)
-print(sum)
+# sum(2, 5, 7, 8, 9)
+# print(sum)
+
